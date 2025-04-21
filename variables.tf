@@ -1,7 +1,7 @@
 variable "ami" {
   type        = string
   description = "The AMI ID for the EC2 instance"
-  default     = "ami-0f9de6e2d2f067fca"
+  default     = "ami-084568db4383264d4"
 }
 
 variable "instance_type" {
@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "key_name" {
   type        = string
   description = "The name of the EC2 key pair"
-  default     = "hcl"
+  default     = "useast"
 }
 
 variable "instance_name" {
@@ -25,7 +25,7 @@ variable "instance_name" {
 variable "vpc_id" {
   type        = string
   description = "The ID of the VPC"
-  default     = "vpc-06cab60814e52bf9c"
+  default     = "vpc-0feb09ec941ba1ac9"
 }
 
 variable "ssh_cidr_blocks" {
